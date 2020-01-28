@@ -1,0 +1,3 @@
+/Users/lda49/CLionProjects/studentmarks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lda49/CLionProjects/studentmarks/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lda49/CLionProjects/studentmarks/cmake-build-debug/CMakeFiles/studentmarks.dir

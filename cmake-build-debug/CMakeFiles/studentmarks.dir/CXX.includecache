@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lda49/CLionProjects/studentmarks/marks.h
+iostream
+-
+iomanip
+-
+
+/Users/lda49/CLionProjects/studentmarks/subject.cpp
+iostream
+-
+marks.h
+/Users/lda49/CLionProjects/studentmarks/marks.h
+
