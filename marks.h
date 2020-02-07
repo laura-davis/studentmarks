@@ -4,9 +4,13 @@
 class student_marks {
 public:
     void initialise();
+
     void display_identities();
+
     void display_marks();
+
     void display_sum();
+
     void display_weighted_average();
 
 protected:
@@ -35,14 +39,14 @@ void student_marks::initialise() {
     sum = exam_mark * exam_weight + practical_mark * practical_weight;
 }
 
-void student_marks:: display_identities() {
+void student_marks::display_identities() {
     std::cout << "Student identity: " << student_identity
-    << " for Module: " << module_identity << std::endl;
+              << " for Module: " << module_identity << std::endl;
 }
 
 void student_marks::display_marks() {
     std::cout << "Exam mark is " << exam_mark <<
-    " Practical mark is " << practical_mark << std::endl;
+              " Practical mark is " << practical_mark << std::endl;
 }
 
 void student_marks::display_sum() {
@@ -55,5 +59,5 @@ void student_marks::display_weighted_average() {
     display_identities();
     display_marks();
     std::cout << "The weighted average of the marks is "
-    << std::setprecision(1) << weighted_average << std::endl;
+              << std::setprecision(1) << weighted_average << std::endl;
 }
